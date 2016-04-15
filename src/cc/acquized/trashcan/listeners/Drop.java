@@ -6,7 +6,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
-import org.bukkit.configuration.Configuration;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
@@ -14,6 +13,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerDropItemEvent;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Drop implements Listener {
@@ -21,7 +21,7 @@ public class Drop implements Listener {
     private Material material;
     private boolean in;
     private boolean above;
-    private List<World> disabledWorlds;
+    private List<World> disabledWorlds = new ArrayList<World>();
 
     public Drop() {
         try {

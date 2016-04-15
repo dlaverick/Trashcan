@@ -14,7 +14,6 @@ public class ConfigProvider {
     private static File file = new File(Main.getInstance().getDataFolder(), "config.yml");
     private static FileConfiguration configuration;
 
-    @SuppressWarnings("ResultOfMethodCallIgnored")
     public static void checkFile() {
         try {
             if (!new File(Main.getInstance().getDataFolder().toString()).exists()) {
