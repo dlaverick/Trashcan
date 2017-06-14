@@ -1,3 +1,4 @@
 # Trashcan  
-[![Build Status](https://travis-ci.org/Acquized/Trashcan.svg?branch=master)](https://travis-ci.org/Acquized/Trashcan)  
 An advanced Trashcan Plugin - Removes item drops above/in Trashcans - configurable Block &amp; Trash Gui
+
+Originally by KingTux, now adopted by dlav for updates and modifications.
